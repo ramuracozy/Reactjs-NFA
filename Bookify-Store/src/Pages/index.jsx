@@ -1,9 +1,10 @@
-import Contact from "../components/shared/Contact/Contact"
-import Header from "../components/shared/Header/Header"
-import Hero from "../components/shared/Hero/Hero"
-import ProductList from "../components/shared/ProductList/ProductList"
-import Team from "../components/shared/Team/Team"
-import Footer from "../components/shared/Footer/Footer"
+import Contact from "../components/Contact"
+import Header from "../components/Header"
+import Hero from "../components/Hero"
+import ProductList from "../components/ProductList"
+import Team from "../components/Team"
+import Footer from "../components/Footer"
+import Service from "../components/Service"
 export default function Home(){
     return(
         <>
@@ -12,6 +13,7 @@ export default function Home(){
             <ProductList/>
             <Team/>
             <Contact/>
+            <Service/>
             <Footer/>
         </>
     )

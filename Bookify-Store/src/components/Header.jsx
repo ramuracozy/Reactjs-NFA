@@ -24,7 +24,7 @@ export default function Header() {
           </li>
           <li>
             <Link to="/books" className="nav-link px-3 text-dark fw-semibold">
-              Books
+              Book
             </Link>
           </li>
           <li>
@@ -35,6 +35,11 @@ export default function Header() {
           <li>
             <Link to="/contacts" className="nav-link px-3 text-dark fw-semibold">
               Contact
+            </Link>
+          </li>
+          <li>
+            <Link to="/services" className="nav-link px-3 text-dark fw-semibold">
+              Service
             </Link>
           </li>
         </ul>

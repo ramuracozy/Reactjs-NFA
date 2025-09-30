@@ -1,13 +1,13 @@
-import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import Service from "../../components/Service";
 
-export default function Contacts(){
+export default function Services(){
     return(
         <>
             <Header />
-            <Contact />
+            <Service />
             <Footer />
-        </>
+        </>  
     )
 }

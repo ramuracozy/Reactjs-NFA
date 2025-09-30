@@ -1,6 +1,6 @@
-import Footer from "../../components/shared/Footer/Footer";
-import Header from "../../components/shared/Header/Header";
-import Team from "../../components/shared/Team/Team";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import Team from "../../components/Team";;
 
 export default function Teams(){
     return(
